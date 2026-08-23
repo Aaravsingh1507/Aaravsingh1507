@@ -75,12 +75,21 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in **Delhi, India** 🇮🇳. I
 
 <div align="center">
 
-  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9&ring_color=E8451E" alt="Aarav's GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=radical&background=0d1117&hide_border=true&ring=FF6B35&fire=E8451E&currStreakLabel=FF6B35&sideLabels=FF6B35&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="Aarav's GitHub Streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Aaravsingh1507&theme=radical" alt="Aarav's GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aaravsingh1507&theme=radical&utcOffset=5.5" alt="Productive Time" />
 
   <br/>
 
-  <img width="42%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Aaravsingh1507&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&title_color=FF6B35&text_color=c9d1d9" alt="Top Languages" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Aaravsingh1507&theme=radical" alt="Top Languages by Repo" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Aaravsingh1507&theme=radical" alt="Top Languages by Commit" />
+
+  <br/>
+
+  <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaravsingh1507&theme=radical" alt="Profile Details" />
+
+  <br/><br/>
+
+  <img width="55%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=radical&background=0d1117&hide_border=true&ring=FF6B35&fire=E8451E&currStreakLabel=FF6B35&sideLabels=FF6B35&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="Aarav's GitHub Streak" />
 
 </div>
 
@@ -110,15 +119,26 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in **Delhi, India** 🇮🇳. I
 ## 🚀 &nbsp;Featured Projects
 
 <div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/Aaravsingh1507/Nexus-OT">
-  <img width="47%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Aaravsingh1507&repo=Nexus-OT&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9" alt="Nexus-OT" />
-</a>
-&nbsp;
-<a href="https://github.com/Aaravsingh1507/CodeBoard">
-  <img width="47%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Aaravsingh1507&repo=CodeBoard&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9" alt="CodeBoard" />
-</a>
+### [🔗 Nexus-OT](https://github.com/Aaravsingh1507/Nexus-OT)
+Real-time **OT collaboration engine** prototype — enables live collaborative editing with operational transformation.
 
+`JavaScript`
+
+</td>
+<td width="50%" valign="top">
+
+### [🔗 CodeBoard](https://github.com/Aaravsingh1507/CodeBoard)
+A collaborative coding platform built for developers who love working together in real-time.
+
+`TypeScript`
+
+</td>
+</tr>
+</table>
 </div>
 
 ---
