@@ -1,18 +1,18 @@
 <div align="center">
 
-  <!-- Animated Wave Header -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5,3&height=180&section=header&text=Aarav%20Singh&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast&descSize=15&descAlignY=52&descColor=ffffffcc" />
+  <!-- Clean Header -->
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=180&section=header&text=Aarav%20Singh&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast&descSize=14&descAlignY=52&descColor=8b949e" />
 
   <!-- Typing SVG -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=FF6B35&center=true&vCenter=true&repeat=true&width=500&height=40&lines=B.Tech+CSE+(AI)+%40+NIET+%7C+Delhi%2C+India;Exploring+ML+%E2%80%A2+Generative+AI+%E2%80%A2+AI+Agents;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&pause=1000&color=58a6ff&center=true&vCenter=true&repeat=true&width=460&height=30&lines=B.Tech+CSE+(AI)+%40+NIET+%7C+Delhi%2C+India;Exploring+ML+%E2%80%A2+GenAI+%E2%80%A2+AI+Agents;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
 
   <br/>
 
   <!-- Compact Badges -->
-  <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Views&color=FF6B35&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Views&color=1f6feb&style=flat-square" alt="Views" />
   &nbsp;
   <a href="https://github.com/Aaravsingh1507?tab=followers">
-    <img src="https://img.shields.io/github/followers/Aaravsingh1507?label=Followers&style=flat-square&color=E8451E&logo=github&logoColor=white" alt="Followers" />
+    <img src="https://img.shields.io/github/followers/Aaravsingh1507?label=Followers&style=flat-square&color=238636&logo=github&logoColor=white" alt="Followers" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
@@ -23,7 +23,6 @@
 
 <br/>
 
-<!-- About Me -->
 ### 👋 &nbsp;About Me
 
 I'm a **B.Tech CSE (AI) student at NIET**, based in Delhi, India. Passionate about building at the intersection of **AI** and **Software Engineering** — currently diving deep into **Machine Learning**, **Generative AI**, and **AI Agents**.
@@ -43,29 +42,16 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in Delhi, India. Passionate abo
 
 ---
 
-### 📊 &nbsp;GitHub Analytics
+### 📊 &nbsp;Stats
 
 <div align="center">
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Aaravsingh1507&theme=radical" alt="Stats" />
-  <img width="48%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=radical&background=0d1117&hide_border=true&ring=FF6B35&fire=E8451E&currStreakLabel=FF6B35&sideLabels=FF6B35&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="Streak" />
-</div>
-
-<div align="center">
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Aaravsingh1507&theme=radical" alt="Languages by Repo" />
-  <img width="48%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aaravsingh1507&theme=radical&utcOffset=5.5" alt="Productive Time" />
-</div>
-
-<div align="center">
-  <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaravsingh1507&theme=radical" alt="Profile Details" />
+  <img width="53%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaravsingh1507&theme=github_dark" alt="Contribution Overview" />
+  <img width="33%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Aaravsingh1507&theme=github_dark" alt="Stats" />
 </div>
 
 ---
 
-### 📈 &nbsp;Contribution Graph
-
-<div align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Aaravsingh1507&bg_color=0d1117&color=FF6B35&line=E8451E&point=ffffff&area_color=FF6B35&area=true&hide_border=true&custom_title=Aarav's%20Contribution%20Graph" alt="Activity Graph" />
-</div>
+### 🐍 &nbsp;Contributions
 
 <div align="center">
   <picture>
@@ -77,7 +63,7 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in Delhi, India. Passionate abo
 
 ---
 
-### 🚀 &nbsp;Featured Projects
+### 🚀 &nbsp;Projects
 
 <div align="center">
 <table>
@@ -101,9 +87,9 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in Delhi, India. Passionate abo
 ---
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" width="500" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote" width="450" />
 </div>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,9,5,3&height=100&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" />
