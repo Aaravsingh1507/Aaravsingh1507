@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Header Banner -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:1a1b27,50:24283b,100:414868&height=200&section=header&text=Aarav%20Singh&fontSize=50&fontColor=7aa2f7&animation=twinkling&fontAlignY=40&desc=%E2%9C%A8%20AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast%20%E2%9C%A8&descSize=14&descColor=a9b1d6&descAlignY=62" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:24283b,100:414868&height=180&section=header&text=Aarav%20Singh&fontSize=45&fontColor=7aa2f7&animation=fadeIn&fontAlignY=34&desc=AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast&descSize=14&descColor=a9b1d6&descAlignY=54" />
 
   <br/>
 
@@ -68,7 +68,7 @@ I'm **Aarav**, a **Computer Science & AI Student** and passionate **Python Devel
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false" alt="GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=tokyonight&border_radius=10" alt="GitHub Streak" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aaravsingh1507&theme=tokyonight&utcOffset=5.5" alt="Productive Time" />
 </div>
 
 <div align="center">
