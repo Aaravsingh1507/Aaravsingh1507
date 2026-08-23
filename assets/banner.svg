@@ -1,161 +1,216 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="180" viewBox="0 0 850 180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 250" width="850" height="250">
   <defs>
-    <!-- Animated gradient background -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#161b22;#0d1117" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" style="stop-color:#161b22">
-        <animate attributeName="stop-color" values="#161b22;#1f6feb20;#161b22" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" style="stop-color:#0d1117">
-        <animate attributeName="stop-color" values="#0d1117;#161b22;#0d1117" dur="6s" repeatCount="indefinite" />
-      </stop>
+    <!-- Import Google Fonts -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;family=Outfit:wght@400;600;800&amp;display=swap');
+
+      /* Global Styles */
+      .terminal-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        fill: #9ca3af;
+      }
+      .terminal-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 15px;
+        fill: #a9b1d6;
+      }
+      .bold-text {
+        font-weight: 700;
+      }
+      .prompt-user {
+        fill: #7aa2f7;
+        font-weight: bold;
+      }
+      .prompt-symbol {
+        fill: #bb9af3;
+        font-weight: bold;
+      }
+      .prompt-cmd {
+        fill: #a9b1d6;
+      }
+      .highlight-name {
+        fill: #7dd3fc;
+        font-weight: bold;
+        filter: drop-shadow(0 0 5px rgba(125, 211, 252, 0.6));
+      }
+      .highlight-role {
+        fill: #e0af68;
+        font-weight: bold;
+      }
+      .highlight-skills {
+        fill: #9ece6a;
+        font-weight: bold;
+      }
+      .highlight-status {
+        fill: #f7768e;
+        font-weight: bold;
+      }
+
+      /* Animated Lines (Typing Effect via Clip Path) */
+      .line-1 {
+        clip-path: inset(0 100% 0 0);
+        animation: type-line-1 14s infinite steps(40);
+      }
+      .line-2 {
+        clip-path: inset(0 100% 0 0);
+        animation: type-line-2 14s infinite steps(40);
+      }
+      .line-3 {
+        clip-path: inset(0 100% 0 0);
+        animation: type-line-3 14s infinite steps(50);
+      }
+      .line-4 {
+        clip-path: inset(0 100% 0 0);
+        animation: type-line-4 14s infinite steps(50);
+      }
+
+      /* Cursor Animation */
+      .cursor {
+        fill: #7aa2f7;
+        animation: blink 0.8s infinite;
+      }
+      .cursor-1 { animation: blink 0.8s infinite, cursor-move-1 14s infinite; }
+      .cursor-2 { animation: blink 0.8s infinite, cursor-move-2 14s infinite; }
+      .cursor-3 { animation: blink 0.8s infinite, cursor-move-3 14s infinite; }
+      .cursor-4 { animation: blink 0.8s infinite, cursor-move-4 14s infinite; }
+
+      /* Keyframes for Typing */
+      @keyframes type-line-1 {
+        0% { clip-path: inset(0 100% 0 0); }
+        10% { clip-path: inset(0 0 0 0); }
+        92% { clip-path: inset(0 0 0 0); }
+        96%, 100% { clip-path: inset(0 100% 0 0); }
+      }
+      @keyframes type-line-2 {
+        0%, 12% { clip-path: inset(0 100% 0 0); }
+        24% { clip-path: inset(0 0 0 0); }
+        92% { clip-path: inset(0 0 0 0); }
+        96%, 100% { clip-path: inset(0 100% 0 0); }
+      }
+      @keyframes type-line-3 {
+        0%, 26% { clip-path: inset(0 100% 0 0); }
+        42% { clip-path: inset(0 0 0 0); }
+        92% { clip-path: inset(0 0 0 0); }
+        96%, 100% { clip-path: inset(0 100% 0 0); }
+      }
+      @keyframes type-line-4 {
+        0%, 44% { clip-path: inset(0 100% 0 0); }
+        62% { clip-path: inset(0 0 0 0); }
+        92% { clip-path: inset(0 0 0 0); }
+        96%, 100% { clip-path: inset(0 100% 0 0); }
+      }
+
+      /* Keyframes for Cursor Movement */
+      @keyframes cursor-move-1 {
+        0% { opacity: 1; transform: translateX(0px); }
+        10% { opacity: 0; transform: translateX(110px); }
+        100% { opacity: 0; }
+      }
+      @keyframes cursor-move-2 {
+        0%, 12% { opacity: 0; transform: translateX(0px); }
+        13% { opacity: 1; transform: translateX(0px); }
+        24% { opacity: 0; transform: translateX(330px); }
+        100% { opacity: 0; }
+      }
+      @keyframes cursor-move-3 {
+        0%, 26% { opacity: 0; transform: translateX(0px); }
+        27% { opacity: 1; transform: translateX(0px); }
+        42% { opacity: 0; transform: translateX(580px); }
+        100% { opacity: 0; }
+      }
+      @keyframes cursor-move-4 {
+        0%, 44% { opacity: 0; transform: translateX(0px); }
+        45% { opacity: 1; transform: translateX(0px); }
+        62% { opacity: 1; transform: translateX(430px); }
+        92% { opacity: 1; transform: translateX(430px); }
+        93%, 100% { opacity: 0; }
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      /* Tokyo Night Border Pulse */
+      .border-glow {
+        stroke: url(#tokyoGradient);
+        stroke-width: 2;
+        filter: drop-shadow(0 0 8px rgba(122, 162, 247, 0.4));
+        animation: border-pulse 4s infinite alternate;
+      }
+      @keyframes border-pulse {
+        0% { filter: drop-shadow(0 0 4px rgba(122, 162, 247, 0.3)); }
+        100% { filter: drop-shadow(0 0 12px rgba(187, 153, 243, 0.7)); }
+      }
+    </style>
+
+    <!-- Glowing Tokyo Night Gradient -->
+    <linearGradient id="tokyoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7aa2f7" />
+      <stop offset="50%" stop-color="#bb9af3" />
+      <stop offset="100%" stop-color="#7dcfff" />
     </linearGradient>
 
-    <!-- Glow filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <!-- Stronger glow for accent -->
-    <filter id="glow-strong">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <!-- Tech Grid Background -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1f2335" stroke-width="0.8" stroke-opacity="0.6" />
+    </pattern>
   </defs>
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap');
+  <!-- Terminal Window Background (Glow & Rounded Card) -->
+  <rect x="15" y="15" width="820" height="220" rx="12" fill="#1a1b26" class="border-glow" />
+  <!-- Grid Fill -->
+  <rect x="16" y="16" width="818" height="218" rx="12" fill="url(#grid)" />
 
-    .name {
-      font-family: 'Inter', -apple-system, sans-serif;
-      font-size: 42px;
-      font-weight: 700;
-      fill: #c9d1d9;
-      opacity: 0;
-      animation: fadeSlideUp 1s ease-out 0.3s forwards;
-    }
+  <!-- Terminal Header / Title Bar -->
+  <g>
+    <!-- Control Dots (Mac Style) -->
+    <circle cx="40" cy="40" r="6" fill="#f7768e" />
+    <circle cx="60" cy="40" r="6" fill="#e0af68" />
+    <circle cx="80" cy="40" r="6" fill="#9ece6a" />
+    
+    <!-- Window Title -->
+    <text x="425" y="45" text-anchor="middle" class="terminal-title">aarav@ai-developer:~</text>
+    
+    <!-- Header Separation Line -->
+    <line x1="15" y1="60" x2="835" y2="60" stroke="#1f2335" stroke-width="1.5" />
+  </g>
 
-    .subtitle {
-      font-family: 'Inter', -apple-system, sans-serif;
-      font-size: 14px;
-      font-weight: 400;
-      fill: #8b949e;
-      opacity: 0;
-      animation: fadeSlideUp 1s ease-out 0.7s forwards;
-    }
+  <!-- Terminal Body Content -->
+  <g transform="translate(40, 75)">
+    <!-- Line 1: whoami command -->
+    <g transform="translate(0, 20)">
+      <text class="terminal-text bold-text">
+        <tspan class="prompt-user">aarav</tspan><tspan class="prompt-symbol">@github</tspan><tspan fill="#565f89">:~$</tspan> <tspan class="prompt-cmd">whoami: </tspan>
+      </text>
+      <text x="180" y="0" class="terminal-text line-1"><tspan class="highlight-name">Aarav Singh</tspan></text>
+      <rect x="180" y="-14" width="8" height="17" class="cursor-1" />
+    </g>
 
-    .accent-line {
-      stroke: #1f6feb;
-      stroke-width: 2;
-      opacity: 0;
-      animation: expandLine 1.2s ease-out 0.5s forwards;
-      filter: url(#glow);
-    }
+    <!-- Line 2: Focus -->
+    <g transform="translate(0, 50)">
+      <text class="terminal-text line-2">
+        <tspan fill="#565f89">&gt; Focus:</tspan> <tspan class="highlight-role">Machine Learning &amp; AI Agents</tspan>
+      </text>
+      <rect x="0" y="-14" width="8" height="17" class="cursor-2" />
+    </g>
 
-    .dot {
-      fill: #1f6feb;
-      opacity: 0;
-      animation: pulseDot 3s ease-in-out infinite;
-    }
+    <!-- Line 3: Tech Stack array -->
+    <g transform="translate(0, 80)">
+      <text class="terminal-text line-3">
+        <tspan fill="#565f89">&gt; Stack:</tspan> <tspan class="highlight-skills">["Python", "JS", "TS", "React", "Next.js", "Node"]</tspan>
+      </text>
+      <rect x="0" y="-14" width="8" height="17" class="cursor-3" />
+    </g>
 
-    .dot-1 { animation-delay: 0s; }
-    .dot-2 { animation-delay: 0.5s; }
-    .dot-3 { animation-delay: 1s; }
-    .dot-4 { animation-delay: 1.5s; }
-    .dot-5 { animation-delay: 2s; }
-
-    .grid-line {
-      stroke: #21262d;
-      stroke-width: 0.5;
-      opacity: 0;
-      animation: fadeIn 2s ease-out 0.2s forwards;
-    }
-
-    .float-particle {
-      fill: #1f6feb;
-      opacity: 0;
-    }
-
-    .p1 { animation: floatUp 8s ease-in-out infinite 0s; }
-    .p2 { animation: floatUp 10s ease-in-out infinite 1.5s; }
-    .p3 { animation: floatUp 7s ease-in-out infinite 3s; }
-    .p4 { animation: floatUp 9s ease-in-out infinite 0.8s; }
-    .p5 { animation: floatUp 11s ease-in-out infinite 2s; }
-    .p6 { animation: floatUp 8s ease-in-out infinite 4s; }
-
-    @keyframes fadeSlideUp {
-      from { opacity: 0; transform: translateY(15px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes expandLine {
-      from { opacity: 0; stroke-dasharray: 0 200; }
-      to { opacity: 0.8; stroke-dasharray: 200 0; }
-    }
-
-    @keyframes pulseDot {
-      0%, 100% { opacity: 0.15; r: 1.5; }
-      50% { opacity: 0.5; r: 2.5; }
-    }
-
-    @keyframes fadeIn {
-      to { opacity: 0.4; }
-    }
-
-    @keyframes floatUp {
-      0% { opacity: 0; transform: translateY(20px); }
-      10% { opacity: 0.3; }
-      90% { opacity: 0.3; }
-      100% { opacity: 0; transform: translateY(-160px); }
-    }
-  </style>
-
-  <!-- Background -->
-  <rect width="850" height="180" fill="url(#bg)" rx="6" />
-
-  <!-- Subtle grid -->
-  <line class="grid-line" x1="0" y1="45" x2="850" y2="45" />
-  <line class="grid-line" x1="0" y1="90" x2="850" y2="90" />
-  <line class="grid-line" x1="0" y1="135" x2="850" y2="135" />
-  <line class="grid-line" x1="212" y1="0" x2="212" y2="180" />
-  <line class="grid-line" x1="425" y1="0" x2="425" y2="180" />
-  <line class="grid-line" x1="638" y1="0" x2="638" y2="180" />
-
-  <!-- Floating particles -->
-  <circle class="float-particle p1" cx="120" cy="170" r="1.5" />
-  <circle class="float-particle p2" cx="300" cy="175" r="1" />
-  <circle class="float-particle p3" cx="500" cy="168" r="1.8" />
-  <circle class="float-particle p4" cx="680" cy="172" r="1.2" />
-  <circle class="float-particle p5" cx="780" cy="165" r="1.5" />
-  <circle class="float-particle p6" cx="200" cy="178" r="1" />
-
-  <!-- Accent dots -->
-  <circle class="dot dot-1" cx="80" cy="90" r="1.5" />
-  <circle class="dot dot-2" cx="770" cy="50" r="1.5" />
-  <circle class="dot dot-3" cx="150" cy="140" r="1.5" />
-  <circle class="dot dot-4" cx="700" cy="130" r="1.5" />
-  <circle class="dot dot-5" cx="400" cy="30" r="1.5" />
-
-  <!-- Accent line under name -->
-  <line class="accent-line" x1="345" y1="105" x2="505" y2="105" />
-
-  <!-- Name -->
-  <text class="name" x="425" y="90" text-anchor="middle">Aarav Singh</text>
-
-  <!-- Subtitle -->
-  <text class="subtitle" x="425" y="130" text-anchor="middle">AI Explorer  •  Python Developer  •  Web Enthusiast</text>
-
-  <!-- Bottom edge glow -->
-  <rect x="0" y="175" width="850" height="5" fill="url(#bg)" opacity="0.5">
-    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite" />
-  </rect>
+    <!-- Line 4: Status -->
+    <g transform="translate(0, 110)">
+      <text class="terminal-text line-4">
+        <tspan fill="#565f89">&gt; Status:</tspan> <tspan class="highlight-status">Building the future with AI Agents...</tspan>
+      </text>
+      <rect x="0" y="-14" width="8" height="17" class="cursor-4" />
+    </g>
+  </g>
 </svg>
