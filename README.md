@@ -51,28 +51,19 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in **Delhi, India** 🇮🇳. I
 
 <div align="center">
 
-#### 💻 Languages & Core
+#### 💻 Languages
 <p>
   <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css&theme=dark" alt="Languages" />
 </p>
 
 #### ⚛️ Frameworks & Libraries
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,flask&theme=dark" alt="Frameworks" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs&theme=dark" alt="Frameworks" />
 </p>
 
 #### 🧰 Tools & Platforms
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,vercel,figma&theme=dark" alt="Tools" />
-</p>
-
-#### 🤖 AI & Data
-<p>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Tools" />
 </p>
 
 </div>
@@ -84,22 +75,13 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in **Delhi, India** 🇮🇳. I
 
 <div align="center">
 
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9&ring_color=E8451E" alt="Aarav's GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Aaravsingh1507&theme=radical&background=0d1117&hide_border=true&ring=FF6B35&fire=E8451E&currStreakLabel=FF6B35&sideLabels=FF6B35&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="Aarav's GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9&ring_color=E8451E" alt="Aarav's GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=radical&background=0d1117&hide_border=true&ring=FF6B35&fire=E8451E&currStreakLabel=FF6B35&sideLabels=FF6B35&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="Aarav's GitHub Streak" />
 
   <br/>
 
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aaravsingh1507&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&title_color=FF6B35&text_color=c9d1d9" alt="Top Languages" />
+  <img width="42%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Aaravsingh1507&layout=compact&theme=radical&bg_color=0d1117&hide_border=true&title_color=FF6B35&text_color=c9d1d9" alt="Top Languages" />
 
-</div>
-
----
-
-<!-- GitHub Trophies -->
-## 🏆 &nbsp;GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aaravsingh1507&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=10" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -130,11 +112,11 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in **Delhi, India** 🇮🇳. I
 <div align="center">
 
 <a href="https://github.com/Aaravsingh1507/Nexus-OT">
-  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=Aaravsingh1507&repo=Nexus-OT&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9" alt="Nexus-OT" />
+  <img width="47%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Aaravsingh1507&repo=Nexus-OT&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9" alt="Nexus-OT" />
 </a>
 &nbsp;
 <a href="https://github.com/Aaravsingh1507/CodeBoard">
-  <img width="47%" src="https://github-readme-stats.vercel.app/api/pin/?username=Aaravsingh1507&repo=CodeBoard&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9" alt="CodeBoard" />
+  <img width="47%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Aaravsingh1507&repo=CodeBoard&theme=radical&bg_color=0d1117&hide_border=true&icon_color=FF6B35&title_color=FF6B35&text_color=c9d1d9" alt="CodeBoard" />
 </a>
 
 </div>
@@ -151,10 +133,6 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in **Delhi, India** 🇮🇳. I
   &nbsp;
   <a href="https://github.com/Aaravsingh1507" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-E8451E?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="mailto:aaravsingh1507@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-C62828?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
