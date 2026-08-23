@@ -1,57 +1,91 @@
 <div align="center">
-
-  <!-- Clean Header -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=180&section=header&text=Aarav%20Singh&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast&descSize=14&descAlignY=52&descColor=8b949e" />
-
-  <!-- Typing SVG -->
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=16&pause=1000&color=58a6ff&center=true&vCenter=true&repeat=true&width=460&height=30&lines=B.Tech+CSE+(AI)+%40+NIET+%7C+Delhi%2C+India;Exploring+ML+%E2%80%A2+GenAI+%E2%80%A2+AI+Agents;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
+  
+  <!-- Header Banner -->
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:1a1b27,50:24283b,100:414868&height=200&section=header&text=Aarav%20Singh&fontSize=50&fontColor=7aa2f7&animation=twinkling&fontAlignY=40&desc=%E2%9C%A8%20AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast%20%E2%9C%A8&descSize=14&descColor=a9b1d6&descAlignY=62" />
 
   <br/>
 
-  <!-- Compact Badges -->
-  <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Views&color=1f6feb&style=flat-square" alt="Views" />
-  &nbsp;
-  <a href="https://github.com/Aaravsingh1507?tab=followers">
-    <img src="https://img.shields.io/github/followers/Aaravsingh1507?label=Followers&style=flat-square&color=238636&logo=github&logoColor=white" alt="Followers" />
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-
+  <!-- Badges -->
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Profile%20Views&color=7aa2f7&style=flat-square" alt="visitor counter" />
+    <a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" />
+    </a>
+    <img src="https://img.shields.io/badge/Status-Building%20with%20AI-73daca?style=flat-square" alt="Status" />
+  </p>
 </div>
-
-<br/>
-
-### 👋 &nbsp;About Me
-
-I'm a **B.Tech CSE (AI) student at NIET**, based in Delhi, India. Passionate about building at the intersection of **AI** and **Software Engineering** — currently diving deep into **Machine Learning**, **Generative AI**, and **AI Agents**.
-
-- 🔭 &nbsp;Working on **AI-powered projects & real-time web apps**
-- 🌱 &nbsp;Learning **LLMs, AI Agent frameworks & Generative AI**
-- 💻 &nbsp;Building with **Python, React, Next.js & Node.js**
-- 🎯 &nbsp;Goal: Contribute to **open-source AI projects**
 
 ---
 
-### 🛠️ &nbsp;Tech Stack
+### 👋 About Me
+
+I'm **Aarav**, a **Computer Science & AI Student** and passionate **Python Developer**. I love building web applications, exploring the world of AI Agents, and diving deep into Machine Learning & Generative AI. Always eager to learn new technologies and apply AI concepts to real-world projects.
+
+- 🎓 Currently pursuing **B.Tech CSE (AI)** at **NIET**, Delhi
+- 🐍 Specializing in **Python Development** and modern web technologies
+- 🤖 Exploring **Machine Learning, Generative AI & AI Agents**
+- 💡 Passionate about building **real-time collaborative** applications
+
+---
+
+### 🛠️ Tech Stack & Skills
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,react,nextjs,nodejs,git,github,vscode&theme=dark&perline=11" alt="Tech Stack" />
+  <table>
+    <tr>
+      <td align="center" width="140"><b>Languages</b></td>
+      <td align="center" width="140"><b>Frontend</b></td>
+      <td align="center" width="140"><b>Backend</b></td>
+      <td align="center" width="140"><b>Tools</b></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /><br/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" /><br/>
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" /><br/>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /><br/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /><br/>
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /><br/>
+        <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-### 📊 &nbsp;Stats
+### 📊 GitHub Statistics
 
 <div align="center">
-  <img width="53%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aaravsingh1507&theme=github_dark" alt="Contribution Overview" />
-  <img width="33%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Aaravsingh1507&theme=github_dark" alt="Stats" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false" alt="GitHub Stats" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=tokyonight&border_radius=10" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img width="38%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aaravsingh1507&layout=compact&theme=tokyonight&border_radius=10&hide_border=false" alt="Top Languages" />
 </div>
 
 ---
 
-### 🐍 &nbsp;Contributions
+### 🧊 3D Contribution Graph
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph" />
+</div>
+
+---
+
+### 🐍 Snake Eating My Contributions
 
 <div align="center">
   <picture>
@@ -63,33 +97,15 @@ I'm a **B.Tech CSE (AI) student at NIET**, based in Delhi, India. Passionate abo
 
 ---
 
-### 🚀 &nbsp;Projects
+> *"The future belongs to those who believe in the beauty of their dreams."* — Eleanor Roosevelt
 
-<div align="center">
-<table>
-<tr>
-<td width="50%">
+### 🤝 Let's Connect
 
-**[Nexus-OT](https://github.com/Aaravsingh1507/Nexus-OT)** &nbsp; `JavaScript`
-<br/>Real-time OT collaboration engine prototype
-
-</td>
-<td width="50%">
-
-**[CodeBoard](https://github.com/Aaravsingh1507/CodeBoard)** &nbsp; `TypeScript`
-<br/>Collaborative coding platform for developers
-
-</td>
-</tr>
-</table>
-</div>
+- 💼 Connect with me on [**LinkedIn**](https://www.linkedin.com/in/aarav-singh-821806388)
+- 🔍 Check out my [**Repositories**](https://github.com/Aaravsingh1507?tab=repositories) and feel free to ⭐ anything you find interesting!
 
 ---
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Dev Quote" width="450" />
+  <sub>⚡ Built with passion by <b>Aarav Singh</b></sub>
 </div>
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" />
