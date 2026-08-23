@@ -1,17 +1,17 @@
 <div align="center">
   
-  <!-- Header Banner -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:24283b,100:414868&height=180&section=header&text=Aarav%20Singh&fontSize=45&fontColor=7aa2f7&animation=fadeIn&fontAlignY=34&desc=AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast&descSize=14&descColor=a9b1d6&descAlignY=54" />
+  <!-- Header Banner - blends with GitHub dark (#0d1117) -->
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=180&section=header&text=Aarav%20Singh&fontSize=45&fontColor=c9d1d9&animation=fadeIn&fontAlignY=34&desc=AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast&descSize=14&descColor=8b949e&descAlignY=54" />
 
   <br/>
 
   <!-- Badges -->
   <p>
-    <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Profile%20Views&color=7aa2f7&style=flat-square" alt="visitor counter" />
+    <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Profile%20Views&color=1f6feb&style=flat-square" alt="visitor counter" />
     <a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" />
     </a>
-    <img src="https://img.shields.io/badge/Status-Building%20with%20AI-73daca?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Status-Building%20with%20AI-238636?style=flat-square" alt="Status" />
   </p>
 </div>
 
@@ -67,12 +67,12 @@ I'm **Aarav**, a **Computer Science & AI Student** and passionate **Python Devel
 ### 📊 GitHub Statistics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false" alt="GitHub Stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aaravsingh1507&theme=tokyonight&utcOffset=5.5" alt="Productive Time" />
+  <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=github_dark&border_radius=8&hide_border=true&bg_color=0d1117&icon_color=1f6feb&title_color=c9d1d9&text_color=8b949e&ring_color=1f6feb" alt="GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aaravsingh1507&theme=github_dark&utcOffset=5.5" alt="Productive Time" />
 </div>
 
 <div align="center">
-  <img width="38%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aaravsingh1507&layout=compact&theme=tokyonight&border_radius=10&hide_border=false" alt="Top Languages" />
+  <img width="38%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Aaravsingh1507&layout=compact&theme=github_dark&border_radius=8&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e" alt="Top Languages" />
 </div>
 
 ---
@@ -97,15 +97,23 @@ I'm **Aarav**, a **Computer Science & AI Student** and passionate **Python Devel
 
 ---
 
-> *"The future belongs to those who believe in the beauty of their dreams."* — Eleanor Roosevelt
+<div align="center">
 
 ### 🤝 Let's Connect
 
-- 💼 Connect with me on [**LinkedIn**](https://www.linkedin.com/in/aarav-singh-821806388)
-- 🔍 Check out my [**Repositories**](https://github.com/Aaravsingh1507?tab=repositories) and feel free to ⭐ anything you find interesting!
+<a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://github.com/Aaravsingh1507" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
 
----
+<br/><br/>
 
-<div align="center">
-  <sub>⚡ Built with passion by <b>Aarav Singh</b></sub>
+<sub>⚡ Built with passion by <b>Aarav Singh</b></sub>
+
 </div>
+
+<!-- Footer - blends with GitHub dark -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=100&section=footer" />
