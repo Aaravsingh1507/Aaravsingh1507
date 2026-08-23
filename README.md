@@ -1,7 +1,7 @@
 <div align="center">
   
-  <!-- Header Banner - blends with GitHub dark (#0d1117) -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=180&section=header&text=Aarav%20Singh&fontSize=45&fontColor=c9d1d9&animation=fadeIn&fontAlignY=34&desc=AI%20Explorer%20%E2%80%A2%20Python%20Developer%20%E2%80%A2%20Web%20Enthusiast&descSize=14&descColor=8b949e&descAlignY=54" />
+  <!-- Animated Banner -->
+  <img width="850" src="./assets/banner.svg" alt="Aarav Singh - AI Explorer • Python Developer • Web Enthusiast" />
 
   <br/>
 
