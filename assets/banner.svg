@@ -63,7 +63,7 @@
       }
       .line-4 {
         clip-path: inset(0 100% 0 0);
-        animation: type-line-4 14s infinite steps(50);
+        animation: type-line-4 14s infinite steps(30);
       }
 
       /* Cursor Animation */
@@ -123,8 +123,8 @@
       @keyframes cursor-move-4 {
         0%, 44% { opacity: 0; transform: translateX(0px); }
         45% { opacity: 1; transform: translateX(0px); }
-        62% { opacity: 1; transform: translateX(190px); }
-        92% { opacity: 1; transform: translateX(190px); }
+        62% { opacity: 1; transform: translateX(270px); }
+        92% { opacity: 1; transform: translateX(270px); }
         93%, 100% { opacity: 0; }
       }
 
@@ -208,7 +208,7 @@
     <!-- Line 4: Status -->
     <g transform="translate(0, 110)">
       <text class="terminal-text line-4">
-        <tspan fill="#565f89">&gt; Status:</tspan> <tspan class="highlight-status">Building...</tspan>
+        <tspan fill="#565f89">&gt; Status:</tspan> <tspan class="highlight-status">Building projects...</tspan>
       </text>
       <rect x="0" y="-14" width="8" height="17" class="cursor-4" />
     </g>

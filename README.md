@@ -11,7 +11,7 @@
     <a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" />
     </a>
-    <img src="https://img.shields.io/badge/Status-Building-238636?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Status-Building_projects-238636?style=flat-square" alt="Status" />
   </p>
 </div>
 
