@@ -11,7 +11,7 @@
 
   <!-- Badges -->
   <p>
-    <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Profile%20Views&color=1f6feb&style=flat-square" alt="visitor counter" />
+    <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Profile+Views&color=1f6feb&style=flat-square" alt="visitor counter" />
     <a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" />
     </a>
