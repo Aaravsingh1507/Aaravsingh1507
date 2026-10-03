@@ -74,6 +74,10 @@
     .font-mono {
       font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
     }
+    .label-blue { fill: #0055dd; font-weight: 600; }
+    .muted-dots { fill: #94a3b8; letter-spacing: 2px; }
+    .dark-text { fill: #1e293b; }
+    
     @keyframes pulse-flow {
       0%, 100% { opacity: 0.25; stroke-dashoffset: 0; }
       50% { opacity: 0.65; stroke-dashoffset: -40; }
@@ -155,7 +159,7 @@
   <circle cx="48" cy="46" r="6" fill="#ff5f56"/>
   <circle cx="68" cy="46" r="6" fill="#ffbd2e"/>
   <circle cx="88" cy="46" r="6" fill="#27c93f"/>
-  <text x="114" y="50" class="font-mono" font-size="14" font-weight="bold" fill="#0055dd">aarav/README.md</text>
+  <text x="114" y="50" class="font-mono label-blue" font-size="14" font-weight="bold">aarav/README.md</text>
 
   <g class="font-mono" font-size="11.5" fill="#3377cc" opacity="0.8">
     <text x="660" y="50">&lt;&gt; Code</text>
@@ -170,12 +174,12 @@
     <text x="956" y="50">Contact</text>
   </g>
 
-  <!-- LEFT PANEL -->
+  <!-- ================= LEFT PANEL: NEURAL.NET ================= -->
   <g transform="translate(35, 75)">
     <rect width="470" height="495" rx="14" fill="#ffffff" fill-opacity="0.5" stroke="#0066ff" stroke-width="1" stroke-opacity="0.3"/>
     <rect width="470" height="495" rx="14" fill="none" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="80 320" class="animated-wire"/>
     <path d="M 12 0 L 115 0 L 105 18 L 12 18 Z" fill="#0066ff" fill-opacity="0.1"/>
-    <text x="18" y="13" class="font-mono" font-size="10" letter-spacing="1.5" fill="#0055dd" font-weight="600">NEURAL.NET</text>
+    <text x="18" y="13" class="font-mono label-blue" font-size="10" letter-spacing="1.5">NEURAL.NET</text>
     <rect x="10" y="24" width="450" height="460" fill="url(#matrix-dots)" rx="8"/>
 
     <g class="radar-line">
@@ -183,221 +187,226 @@
       <polygon points="12,28 458,28 458,55 12,55" fill="url(#stream-flow)" opacity="0.2"/>
     </g>
 
-    <!-- Neural Network -->
-    <g opacity="0.5">
-      <circle cx="80" cy="120" r="5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
-      <circle cx="80" cy="170" r="5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
-      <circle cx="80" cy="220" r="5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
-      <circle cx="80" cy="270" r="5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
-      <circle cx="80" cy="320" r="5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
-      <circle cx="175" cy="100" r="5" fill="#0066ff" opacity="0.3"/>
-      <circle cx="175" cy="150" r="5" fill="#0066ff" opacity="0.3"/>
-      <circle cx="175" cy="200" r="5" fill="#0066ff" opacity="0.3"/>
-      <circle cx="175" cy="250" r="5" fill="#0066ff" opacity="0.3"/>
-      <circle cx="175" cy="300" r="5" fill="#0066ff" opacity="0.3"/>
-      <circle cx="175" cy="350" r="5" fill="#0066ff" opacity="0.3"/>
-      <circle cx="270" cy="120" r="5" fill="#7c3aed" opacity="0.4"/>
-      <circle cx="270" cy="170" r="5" fill="#7c3aed" opacity="0.4"/>
-      <circle cx="270" cy="220" r="5" fill="#7c3aed" opacity="0.4"/>
-      <circle cx="270" cy="270" r="5" fill="#7c3aed" opacity="0.4"/>
-      <circle cx="270" cy="320" r="5" fill="#7c3aed" opacity="0.4"/>
-      <circle cx="370" cy="160" r="5" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
-      <circle cx="370" cy="220" r="5" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
-      <circle cx="370" cy="280" r="5" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
+    <!-- Neural Network Visualization -->
+    <g opacity="0.75">
+      <!-- Input Layer (x=75) -->
+      <circle cx="75" cy="75" r="4.5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
+      <circle cx="75" cy="120" r="4.5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
+      <circle cx="75" cy="165" r="4.5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
+      <circle cx="75" cy="210" r="4.5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
+      <circle cx="75" cy="255" r="4.5" fill="none" stroke="#0066ff" stroke-width="1.2"/>
+
+      <!-- Hidden Layer 1 (x=170) -->
+      <circle cx="170" cy="60" r="4.5" fill="#0066ff" opacity="0.3"/>
+      <circle cx="170" cy="100" r="4.5" fill="#0066ff" opacity="0.3"/>
+      <circle cx="170" cy="140" r="4.5" fill="#0066ff" opacity="0.3"/>
+      <circle cx="170" cy="180" r="4.5" fill="#0066ff" opacity="0.3"/>
+      <circle cx="170" cy="220" r="4.5" fill="#0066ff" opacity="0.3"/>
+      <circle cx="170" cy="260" r="4.5" fill="#0066ff" opacity="0.3"/>
+
+      <!-- Hidden Layer 2 (x=270) -->
+      <circle cx="270" cy="75" r="4.5" fill="#7c3aed" opacity="0.4"/>
+      <circle cx="270" cy="120" r="4.5" fill="#7c3aed" opacity="0.4"/>
+      <circle cx="270" cy="165" r="4.5" fill="#7c3aed" opacity="0.4"/>
+      <circle cx="270" cy="210" r="4.5" fill="#7c3aed" opacity="0.4"/>
+      <circle cx="270" cy="255" r="4.5" fill="#7c3aed" opacity="0.4"/>
+
+      <!-- Output Layer (x=370) -->
+      <circle cx="370" cy="110" r="4.5" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
+      <circle cx="370" cy="165" r="4.5" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
+      <circle cx="370" cy="220" r="4.5" fill="none" stroke="#7c3aed" stroke-width="1.2"/>
+
+      <!-- Connections -->
       <g stroke="#0066ff" stroke-width="0.5" opacity="0.2">
-        <line x1="85" y1="120" x2="170" y2="100"/><line x1="85" y1="120" x2="170" y2="150"/>
-        <line x1="85" y1="120" x2="170" y2="200"/><line x1="85" y1="170" x2="170" y2="150"/>
-        <line x1="85" y1="170" x2="170" y2="200"/><line x1="85" y1="170" x2="170" y2="250"/>
-        <line x1="85" y1="220" x2="170" y2="200"/><line x1="85" y1="220" x2="170" y2="250"/>
-        <line x1="85" y1="220" x2="170" y2="300"/><line x1="85" y1="270" x2="170" y2="250"/>
-        <line x1="85" y1="270" x2="170" y2="300"/><line x1="85" y1="270" x2="170" y2="350"/>
-        <line x1="85" y1="320" x2="170" y2="300"/><line x1="85" y1="320" x2="170" y2="350"/>
+        <line x1="80" y1="75" x2="165" y2="60"/><line x1="80" y1="75" x2="165" y2="100"/>
+        <line x1="80" y1="120" x2="165" y2="100"/><line x1="80" y1="120" x2="165" y2="140"/>
+        <line x1="80" y1="165" x2="165" y2="140"/><line x1="80" y1="165" x2="165" y2="180"/>
+        <line x1="80" y1="210" x2="165" y2="180"/><line x1="80" y1="210" x2="165" y2="220"/>
+        <line x1="80" y1="255" x2="165" y2="220"/><line x1="80" y1="255" x2="165" y2="260"/>
       </g>
       <g stroke="#7c3aed" stroke-width="0.5" opacity="0.2">
-        <line x1="180" y1="100" x2="265" y2="120"/><line x1="180" y1="100" x2="265" y2="170"/>
-        <line x1="180" y1="150" x2="265" y2="120"/><line x1="180" y1="150" x2="265" y2="170"/>
-        <line x1="180" y1="150" x2="265" y2="220"/><line x1="180" y1="200" x2="265" y2="170"/>
-        <line x1="180" y1="200" x2="265" y2="220"/><line x1="180" y1="200" x2="265" y2="270"/>
-        <line x1="180" y1="250" x2="265" y2="220"/><line x1="180" y1="250" x2="265" y2="270"/>
-        <line x1="180" y1="300" x2="265" y2="270"/><line x1="180" y1="300" x2="265" y2="320"/>
-        <line x1="180" y1="350" x2="265" y2="320"/>
+        <line x1="175" y1="60" x2="265" y2="75"/><line x1="175" y1="100" x2="265" y2="75"/>
+        <line x1="175" y1="100" x2="265" y2="120"/><line x1="175" y1="140" x2="265" y2="120"/>
+        <line x1="175" y1="140" x2="265" y2="165"/><line x1="175" y1="180" x2="265" y2="165"/>
+        <line x1="175" y1="180" x2="265" y2="210"/><line x1="175" y1="220" x2="265" y2="210"/>
+        <line x1="175" y1="220" x2="265" y2="255"/><line x1="175" y1="260" x2="265" y2="255"/>
       </g>
       <g stroke="#7c3aed" stroke-width="0.5" opacity="0.2">
-        <line x1="275" y1="120" x2="365" y2="160"/><line x1="275" y1="170" x2="365" y2="160"/>
-        <line x1="275" y1="170" x2="365" y2="220"/><line x1="275" y1="220" x2="365" y2="220"/>
-        <line x1="275" y1="270" x2="365" y2="220"/><line x1="275" y1="270" x2="365" y2="280"/>
-        <line x1="275" y1="320" x2="365" y2="280"/>
+        <line x1="275" y1="75" x2="365" y2="110"/><line x1="275" y1="120" x2="365" y2="110"/>
+        <line x1="275" y1="120" x2="365" y2="165"/><line x1="275" y1="165" x2="365" y2="165"/>
+        <line x1="275" y1="210" x2="365" y2="165"/><line x1="275" y1="210" x2="365" y2="220"/>
+        <line x1="275" y1="255" x2="365" y2="220"/>
       </g>
-      <circle r="2.5" fill="#0066ff" filter="url(#blue-glow)">
-        <animate attributeName="cx" values="85;170" dur="1.5s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="220;200" dur="1.5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+      <circle r="2.2" fill="#0066ff" filter="url(#blue-glow)">
+        <animate attributeName="cx" values="80;170" dur="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="165;140" dur="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite"/>
       </circle>
       <circle r="2" fill="#7c3aed" filter="url(#flow-glow)">
-        <animate attributeName="cx" values="180;265" dur="1.8s" begin="-0.6s" repeatCount="indefinite"/>
-        <animate attributeName="cy" values="250;270" dur="1.8s" begin="-0.6s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="175;270" dur="1.8s" begin="-0.6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="180;165" dur="1.8s" begin="-0.6s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="-0.6s" repeatCount="indefinite"/>
       </circle>
     </g>
 
-    <text x="50" y="380" class="font-mono" font-size="9" fill="#0066ff" opacity="0.4">input_layer</text>
-    <text x="150" y="395" class="font-mono" font-size="9" fill="#0066ff" opacity="0.4">hidden_01</text>
-    <text x="245" y="365" class="font-mono" font-size="9" fill="#7c3aed" opacity="0.4">hidden_02</text>
-    <text x="340" y="330" class="font-mono" font-size="9" fill="#7c3aed" opacity="0.4">output</text>
+    <!-- Layer Labels -->
+    <text x="50" y="285" class="font-mono" font-size="9" fill="#0066ff" opacity="0.5">input_layer</text>
+    <text x="145" y="295" class="font-mono" font-size="9" fill="#0066ff" opacity="0.5">hidden_01</text>
+    <text x="248" y="285" class="font-mono" font-size="9" fill="#7c3aed" opacity="0.5">hidden_02</text>
+    <text x="350" y="250" class="font-mono" font-size="9" fill="#7c3aed" opacity="0.5">output</text>
 
-    <g class="font-mono" font-size="10.5">
-      <text x="22" y="420" fill="#7c3aed" opacity="0.8">class</text>
-      <text x="52" y="420" fill="#0055dd" opacity="0.8">NeuralAgent</text>
-      <text x="138" y="420" fill="#3377cc" opacity="0.6">:</text>
-      <text x="36" y="438" fill="#7c3aed" opacity="0.8">def</text>
-      <text x="62" y="438" fill="#b45309" opacity="0.8">__init__</text>
-      <text x="118" y="438" fill="#3377cc" opacity="0.6">(self):</text>
-      <text x="50" y="456" fill="#1a1a2e" opacity="0.7">self.model = </text>
-      <text x="162" y="456" fill="#16a34a" opacity="0.8">"transformer"</text>
-      <text x="50" y="474" fill="#1a1a2e" opacity="0.7">self.status = </text>
-      <text x="168" y="474" fill="#16a34a" opacity="0.8">"learning"</text>
-      <text x="36" y="498" fill="#7c3aed" opacity="0.8">def</text>
-      <text x="62" y="498" fill="#b45309" opacity="0.8">build</text>
-      <text x="94" y="498" fill="#3377cc" opacity="0.6">(self):</text>
-      <text x="50" y="516" fill="#7c3aed" opacity="0.8">return</text>
-      <text x="96" y="516" fill="#16a34a" opacity="0.8">"🚀 shipping..."</text>
+    <!-- Divider Line -->
+    <line x1="20" y1="320" x2="450" y2="320" stroke="#0066ff" stroke-width="0.5" stroke-opacity="0.15"/>
+
+    <!-- Python Code Block -->
+    <g class="font-mono" font-size="11">
+      <text x="25" y="348">
+        <tspan fill="#7c3aed">class </tspan><tspan fill="#0055dd" font-weight="bold">NeuralAgent</tspan><tspan fill="#3377cc">:</tspan>
+      </text>
+      <text x="45" y="370">
+        <tspan fill="#7c3aed">def </tspan><tspan fill="#b45309">__init__</tspan><tspan fill="#3377cc">(self):</tspan>
+      </text>
+      <text x="65" y="392">
+        <tspan fill="#1e293b" opacity="0.7">self.model = </tspan><tspan fill="#16a34a">"transformer"</tspan>
+      </text>
+      <text x="65" y="412">
+        <tspan fill="#1e293b" opacity="0.7">self.status = </tspan><tspan fill="#16a34a">"learning"</tspan>
+      </text>
+      <text x="45" y="435">
+        <tspan fill="#7c3aed">def </tspan><tspan fill="#b45309">build</tspan><tspan fill="#3377cc">(self):</tspan>
+      </text>
+      <text x="65" y="456">
+        <tspan fill="#7c3aed">return </tspan><tspan fill="#16a34a">"🚀 shipping..."</tspan>
+      </text>
     </g>
   </g>
 
-  <!-- RIGHT PANEL -->
+  <!-- ================= RIGHT PANEL: SYSTEM.INFO ================= -->
   <g transform="translate(525, 75)">
     <rect width="525" height="495" rx="14" fill="#ffffff" fill-opacity="0.5" stroke="#0066ff" stroke-width="1" stroke-opacity="0.3"/>
-    <rect width="525" height="495" rx="14" fill="none" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="80 320" class="animated-wire"/>
-    <path d="M 12 0 L 130 0 L 120 18 L 12 18 Z" fill="#0066ff" fill-opacity="0.1"/>
-    <text x="18" y="13" class="font-mono" font-size="10" letter-spacing="1.5" fill="#0055dd" font-weight="600">SYSTEM.INFO</text>
+    <rect width="525" height="495" rx="14" fill="none" stroke="#0066ff" stroke-width="1.5" stroke-dasharray="80 320" class="animated-wire" style="animation-delay: -1.5s;"/>
 
-    <circle cx="490" cy="10" r="4" fill="#16a34a" filter="url(#blue-glow)">
+    <path d="M 12 0 L 115 0 L 105 18 L 12 18 Z" fill="#0066ff" fill-opacity="0.1"/>
+    <text x="18" y="13" class="font-mono label-blue" font-size="10" letter-spacing="1.5">SYSTEM.INFO</text>
+
+    <circle cx="462" cy="18" r="4.5" fill="#16a34a">
       <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="450" y="14" class="font-mono" font-size="10" fill="#16a34a" opacity="0.9">online</text>
+    <text x="474" y="22" class="font-mono" font-size="11" font-weight="600" fill="#16a34a">online</text>
 
-    <text x="22" y="48" class="font-mono" font-size="13">
-      <tspan fill="#16a34a">aarav@developer</tspan><tspan fill="#3377cc">:~$ </tspan><tspan fill="#1a1a2e">./profile.sh</tspan>
-    </text>
-
-    <g class="font-mono" font-size="12.5">
-      <text x="22" y="82">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Name</tspan>
-        <tspan fill="#94a3b8" letter-spacing="2"> ········ </tspan>
-        <tspan fill="#1a1a2e">Aarav Singh</tspan>
-      </text>
-      <text x="22" y="108">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Role</tspan>
-        <tspan fill="#94a3b8" letter-spacing="2"> ········ </tspan>
-        <tspan fill="#1a1a2e">CSE-AI Student &amp; Python Dev</tspan>
-      </text>
-      <text x="22" y="134">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Location</tspan>
-        <tspan fill="#94a3b8" letter-spacing="2"> ···· </tspan>
-        <tspan fill="#1a1a2e">Delhi, India</tspan>
-      </text>
-      <text x="22" y="160">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Education</tspan>
-        <tspan fill="#94a3b8" letter-spacing="2"> ··· </tspan>
-        <tspan fill="#1a1a2e">B.Tech CSE (AI) @ NIET</tspan>
-      </text>
-      <text x="22" y="186">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Stack</tspan>
-        <tspan fill="#94a3b8" letter-spacing="2"> ······· </tspan>
-        <tspan fill="#1a1a2e">Python, JS, TS, React,</tspan>
-      </text>
-      <text x="188" y="206" fill="#1a1a2e" font-size="12.5">Next.js, Node.js</text>
-
-      <line x1="22" y1="222" x2="500" y2="222" stroke="#0066ff" stroke-width="0.5" stroke-opacity="0.15"/>
-
-      <text x="22" y="244">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Focus</tspan>
-        <tspan fill="#94a3b8" letter-spacing="2"> ······· </tspan>
-        <tspan fill="#1a1a2e">Machine Learning &amp; AI Agents</tspan>
-      </text>
-      <text x="22" y="270">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Interests</tspan>
-        <tspan fill="#94a3b8" letter-spacing="2"> ···· </tspan>
-        <tspan fill="#1a1a2e">AI, Open Source, Gen AI</tspan>
+    <!-- Terminal Prompt Line -->
+    <g transform="translate(20, 48)" class="font-mono" font-size="12.5">
+      <text x="0" y="0" font-weight="bold">
+        <tspan fill="#16a34a">aarav@developer</tspan><tspan fill="#3377cc">:~$ </tspan><tspan fill="#1e293b">./profile.sh</tspan>
       </text>
     </g>
 
-    <g class="font-mono" font-size="12.5">
-      <line x1="22" y1="290" x2="500" y2="290" stroke="#0066ff" stroke-width="0.5" stroke-opacity="0.15"/>
-      <text x="22" y="312">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Building</tspan>
-      </text>
-      <text x="40" y="338">
-        <tspan fill="#b45309">◆ </tspan>
-        <tspan fill="#0055dd" font-weight="600">AI Agents</tspan>
-        <tspan fill="#94a3b8" letter-spacing="1"> ····· </tspan>
-        <tspan fill="#1a1a2e" font-size="11.5">Intelligent Automation Systems</tspan>
-      </text>
-      <text x="40" y="362">
-        <tspan fill="#b45309">◆ </tspan>
-        <tspan fill="#0055dd" font-weight="600">ML Projects</tspan>
-        <tspan fill="#94a3b8" letter-spacing="1"> ··· </tspan>
-        <tspan fill="#1a1a2e" font-size="11.5">Deep Learning &amp; Gen AI</tspan>
-      </text>
-      <text x="40" y="386">
-        <tspan fill="#b45309">◆ </tspan>
-        <tspan fill="#0055dd" font-weight="600">Web Apps</tspan>
-        <tspan fill="#94a3b8" letter-spacing="1"> ····· </tspan>
-        <tspan fill="#1a1a2e" font-size="11.5">Real-time Collaborative Apps</tspan>
-      </text>
-      <text x="40" y="410">
-        <tspan fill="#b45309">◆ </tspan>
-        <tspan fill="#0055dd" font-weight="600">Python Tools</tspan>
-        <tspan fill="#94a3b8" letter-spacing="1"> ·· </tspan>
-        <tspan fill="#1a1a2e" font-size="11.5">APIs &amp; Backend Systems</tspan>
-      </text>
+    <!-- Specifications Table -->
+    <g transform="translate(20, 75)" class="font-mono" font-size="11.5">
+      <!-- Name -->
+      <text x="0" y="0" class="label-blue">&gt; Name</text>
+      <text x="56" y="0" class="muted-dots">............................</text>
+      <text x="175" y="0" class="dark-text" font-weight="500">Aarav Singh</text>
+
+      <!-- Role -->
+      <text x="0" y="20" class="label-blue">&gt; Role</text>
+      <text x="56" y="20" class="muted-dots">............................</text>
+      <text x="175" y="20" class="dark-text">CSE-AI Student &amp; Python Dev</text>
+
+      <!-- Location -->
+      <text x="0" y="40" class="label-blue">&gt; Location</text>
+      <text x="80" y="40" class="muted-dots">........................</text>
+      <text x="175" y="40" class="dark-text">Delhi, India</text>
+
+      <!-- Education -->
+      <text x="0" y="60" class="label-blue">&gt; Education</text>
+      <text x="90" y="60" class="muted-dots">......................</text>
+      <text x="175" y="60" class="dark-text">B.Tech CSE (AI) @ NIET</text>
+
+      <!-- Stack -->
+      <text x="0" y="80" class="label-blue">&gt; Stack</text>
+      <text x="64" y="80" class="muted-dots">..........................</text>
+      <text x="175" y="80" class="dark-text">Python, JavaScript, TypeScript, React</text>
+      <text x="175" y="96" class="dark-text" opacity="0.85">Next.js, Node.js, FastAPI, PyTorch</text>
+
+      <!-- Focus -->
+      <text x="0" y="120" class="label-blue">&gt; Focus</text>
+      <text x="64" y="120" class="muted-dots">..........................</text>
+      <text x="175" y="120" class="dark-text">Machine Learning &amp; AI Agents</text>
+
+      <!-- Interests -->
+      <text x="0" y="140" class="label-blue">&gt; Interests</text>
+      <text x="88" y="140" class="muted-dots">......................</text>
+      <text x="175" y="140" class="dark-text">AI, Open Source, Gen AI, Deep Learning</text>
     </g>
 
-    <g class="font-mono" font-size="12.5">
-      <line x1="22" y1="428" x2="500" y2="428" stroke="#0066ff" stroke-width="0.5" stroke-opacity="0.15"/>
-      <text x="22" y="450">
-        <tspan fill="#7c3aed" font-weight="bold">&gt; </tspan>
-        <tspan fill="#0055dd" font-weight="600">Links</tspan>
-      </text>
-      <text x="40" y="474">
-        <tspan fill="#3377cc">⚡ Github</tspan>
-        <tspan fill="#94a3b8" letter-spacing="1"> ···· </tspan>
-        <tspan fill="#1a1a2e" font-size="11">github.com/Aaravsingh1507</tspan>
-      </text>
-      <text x="40" y="496">
-        <tspan fill="#3377cc">🔗 LinkedIn</tspan>
-        <tspan fill="#94a3b8" letter-spacing="1"> ·· </tspan>
-        <tspan fill="#1a1a2e" font-size="11">linkedin.com/in/aarav-singh-821806388</tspan>
-      </text>
+    <!-- Projects Section -->
+    <g transform="translate(20, 248)" class="font-mono" font-size="11.5">
+      <text x="0" y="0" class="label-blue" font-weight="bold">&gt; Building</text>
+      
+      <text x="12" y="20" class="label-blue">◆ AI Agents</text>
+      <text x="96" y="20" class="muted-dots">......................</text>
+      <text x="175" y="20" class="dark-text">Intelligent Automation Systems</text>
+
+      <text x="12" y="40" class="label-blue">◆ ML Projects</text>
+      <text x="110" y="40" class="muted-dots">....................</text>
+      <text x="175" y="40" class="dark-text">Deep Learning &amp; Gen AI</text>
+
+      <text x="12" y="60" class="label-blue">◆ Web Apps</text>
+      <text x="96" y="60" class="muted-dots">......................</text>
+      <text x="175" y="60" class="dark-text">Real-time Collaborative Apps</text>
+
+      <text x="12" y="80" class="label-blue">◆ Python Tools</text>
+      <text x="120" y="80" class="muted-dots">..................</text>
+      <text x="175" y="80" class="dark-text">APIs &amp; Backend Systems</text>
     </g>
 
-    <text x="22" y="530" class="font-mono" font-size="13">
-      <tspan fill="#16a34a">aarav@developer</tspan><tspan fill="#3377cc">:~$ </tspan>
-      <tspan fill="#1a1a2e" class="cursor-blink">█</tspan>
-    </text>
+    <!-- Links Section -->
+    <g transform="translate(20, 362)" class="font-mono" font-size="11.5">
+      <text x="0" y="0" class="label-blue" font-weight="bold">&gt; Links</text>
+
+      <!-- GitHub -->
+      <g transform="translate(14, 10)">
+        <path d="M6 0C2.69 0 0 2.74 0 6.12c0 2.71 1.72 5.01 4.1 5.82.3.06.41-.13.41-.3v-1.05c-1.67.37-2.02-.82-2.02-.82-.27-.71-.67-.9-.67-.9-.55-.38.04-.37.04-.37.6.04.92.64.92.64.54.94 1.41.67 1.76.51.05-.4.21-.67.38-.83-1.33-.16-2.74-.68-2.74-3.04 0-.67.24-1.22.62-1.65-.06-.16-.27-.79.06-1.64 0 0 .5-.17 1.66.63.48-.14 1-.21 1.5-.21.51 0 1.02.07 1.5.21 1.15-.8 1.65-.63 1.65-.63.34.85.13 1.48.07 1.64.39.43.62.98.62 1.65 0 2.37-1.41 2.88-2.75 3.03.22.2.42.58.42 1.16v1.72c0 .17.11.36.42.3C10.28 11.12 12 8.83 12 6.12 12 2.74 9.31 0 6 0z" fill="#0066ff"/>
+      </g>
+      <text x="34" y="20" class="label-blue">GitHub</text>
+      <text x="96" y="20" class="muted-dots">.......................</text>
+      <text x="175" y="20" class="dark-text">github.com/Aaravsingh1507</text>
+
+      <!-- LinkedIn -->
+      <g transform="translate(14, 29)">
+        <rect x="0.5" y="0.5" width="11" height="11" rx="2" fill="none" stroke="#0066ff" stroke-width="1.1"/>
+        <text x="3" y="9" font-size="8" fill="#0066ff" font-family="sans-serif" font-weight="bold">in</text>
+      </g>
+      <text x="34" y="39" class="label-blue">LinkedIn</text>
+      <text x="105" y="39" class="muted-dots">......................</text>
+      <text x="175" y="39" class="dark-text">linkedin.com/in/aarav-singh-821806388</text>
+    </g>
+
+    <!-- Cursor prompt -->
+    <g transform="translate(20, 435)" class="font-mono" font-size="12">
+      <text x="0" y="0">
+        <tspan fill="#16a34a">aarav@developer</tspan><tspan fill="#3377cc">:~$ </tspan>
+        <tspan fill="#0066ff" class="cursor-blink">█</tspan>
+      </text>
+    </g>
   </g>
 
-  <!-- BOTTOM STATUS BAR -->
-  <g transform="translate(0, 590)">
-    <rect x="20" y="0" width="1060" height="50" rx="0" fill="#ffffff" fill-opacity="0.3"/>
-    <line x1="20" y1="0" x2="1080" y2="0" stroke="#0066ff" stroke-width="0.5" stroke-opacity="0.2"/>
-    <g class="font-mono" font-size="12" opacity="0.85">
-      <text x="40" y="30">
+  <!-- ================= BOTTOM STATUS BAR ================= -->
+  <g transform="translate(0, 595)">
+    <rect x="20" y="0" width="1060" height="45" rx="0" fill="#ffffff" fill-opacity="0.4"/>
+    <line x1="20" y1="0" x2="1080" y2="0" stroke="#0066ff" stroke-width="0.6" stroke-opacity="0.2"/>
+
+    <g class="font-mono" font-size="12" opacity="0.9">
+      <text x="40" y="28">
         <tspan fill="#16a34a">●</tspan>
-        <tspan fill="#1a1a2e"> STATUS: </tspan>
-        <tspan fill="#0055dd">Building &amp; Learning</tspan>
+        <tspan fill="#1e293b"> STATUS: </tspan>
+        <tspan fill="#0055dd" font-weight="600">Building &amp; Learning</tspan>
       </text>
-      <text x="340" y="30">
+
+      <text x="340" y="28">
         <tspan fill="#7c3aed">▸</tspan>
-        <tspan fill="#1a1a2e"> STACK: </tspan>
+        <tspan fill="#1e293b"> STACK: </tspan>
         <tspan fill="#b45309">Python</tspan>
         <tspan fill="#3377cc"> · </tspan>
         <tspan fill="#b45309">React</tspan>
@@ -406,11 +415,13 @@
         <tspan fill="#3377cc"> · </tspan>
         <tspan fill="#b45309">Node</tspan>
       </text>
-      <text x="760" y="30">
+
+      <text x="760" y="28">
         <tspan fill="#7c3aed">▸</tspan>
-        <tspan fill="#1a1a2e"> MODE: </tspan>
-        <tspan fill="#0055dd">ML &amp; AI Agents</tspan>
+        <tspan fill="#1e293b"> MODE: </tspan>
+        <tspan fill="#0055dd" font-weight="600">ML &amp; AI Agents</tspan>
       </text>
     </g>
   </g>
+
 </svg>
