@@ -1,7 +1,11 @@
 <div align="center">
   
-  <!-- Animated Banner -->
-  <img width="850" src="./assets/banner.svg" alt="Aarav Singh - AI Explorer • Python Developer • Web Enthusiast" />
+  <!-- Animated Terminal Banner -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
+    <img width="100%" src="./dark.svg" alt="Aarav Singh — CSE-AI Student, Python Developer &amp; AI/ML Enthusiast" />
+  </picture>
 
   <br/>
 
