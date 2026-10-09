@@ -72,7 +72,7 @@ I'm **Aarav**, a **Computer Science & AI Student** and passionate **Python Devel
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats-fast.vercel.app/api?username=Aaravsingh1507&show_icons=true&theme=github_dark&border_radius=8&hide_border=true&bg_color=0d1117&icon_color=1f6feb&title_color=c9d1d9&text_color=8b949e&ring_color=1f6feb" alt="GitHub Stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aaravsingh1507&theme=github_dark&utcOffset=5.5" alt="Productive Time" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=github_dark&border_radius=8&hide_border=true&background=0d1117&ring=1f6feb&fire=1f6feb&currStreakLabel=1f6feb" alt="GitHub Streak" />
 </div>
 
 <div align="center">
