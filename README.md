@@ -11,7 +11,9 @@
 
   <!-- Badges -->
   <p>
-    <img src="https://komarev.com/ghpvc/?username=Aaravsingh1507&label=Profile+Views&color=1f6feb&style=flat-square" alt="visitor counter" />
+    <a href="https://hits.sh/github.com/Aaravsingh1507/" target="_blank">
+      <img src="https://hits.sh/github.com/Aaravsingh1507.svg?style=flat-square&label=Profile+Views&color=1f6feb&extraCount=136" alt="Profile Views" />
+    </a>
     <a href="https://www.linkedin.com/in/aarav-singh-821806388" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="linkedin" />
     </a>
