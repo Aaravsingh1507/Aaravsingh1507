@@ -25,10 +25,9 @@
 
 ### 👋 About Me
 
-I'm **Aarav**, a **Computer Science & AI Student** and passionate **Python Developer**. I love building web applications, exploring the world of AI Agents, and diving deep into Machine Learning & Generative AI. Always eager to learn new technologies and apply AI concepts to real-world projects.
+I'm **Aarav**, a **Computer Science & AI Student** and passionate **Web Developer**. I love building web applications, exploring the world of AI Agents, and diving deep into Machine Learning & Generative AI. Always eager to learn new technologies and apply AI concepts to real-world projects.
 
-- 🎓 Currently pursuing **B.Tech CSE (AI)** at **NIET**, Delhi
-- 🐍 Specializing in **Python Development** and modern web technologies
+- 🎓 Currently pursuing **B.Tech CSE (AI)** at **NIET**, Greater Noida
 - 🤖 Exploring **Machine Learning, Generative AI & AI Agents**
 - 💡 Passionate about building **real-time collaborative** applications
 
