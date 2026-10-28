@@ -4,7 +4,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
-    <img width="100%" src="./dark.svg" alt="Aarav Singh — CSE-AI Student, Python Developer &amp; AI/ML Enthusiast" />
+    <img width="100%" src="./dark.svg" alt="Aarav Singh — CSE-AI Student, Full Stack Developer &amp; AI/ML Enthusiast" />
   </picture>
 
   <br/>
