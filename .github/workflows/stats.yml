@@ -1,0 +1,57 @@
+name: Generate GitHub Stats Cards
+
+on:
+  schedule:
+    # Runs automatically every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/stats.yml"
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    name: Update GitHub Stats & Top Languages Cards
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and validate SVG cards
+        run: |
+          mkdir -p profile-stats
+
+          # 1. GitHub Stats Card
+          STATS_URL="https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&border_radius=8&hide_border=true&bg_color=0d1117&icon_color=1f6feb&title_color=c9d1d9&text_color=8b949e&ring_color=1f6feb"
+          curl -s -S --max-time 30 "$STATS_URL" -o temp-stats.svg
+          if [ -s temp-stats.svg ] && grep -q "<svg" temp-stats.svg && ! grep -qi "Something went wrong" temp-stats.svg && ! grep -qi "rate limit" temp-stats.svg; then
+            mv temp-stats.svg profile-stats/github-stats.svg
+            echo "Successfully updated profile-stats/github-stats.svg"
+          else
+            echo "Warning: Received invalid response for stats card. Keeping existing version."
+            rm -f temp-stats.svg
+          fi
+
+          # 2. Top Languages Card
+          TOP_LANGS_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=github_dark&border_radius=8&hide_border=true&bg_color=0d1117&title_color=c9d1d9&text_color=8b949e"
+          curl -s -S --max-time 30 "$TOP_LANGS_URL" -o temp-langs.svg
+          if [ -s temp-langs.svg ] && grep -q "<svg" temp-langs.svg && ! grep -qi "Something went wrong" temp-langs.svg && ! grep -qi "rate limit" temp-langs.svg; then
+            mv temp-langs.svg profile-stats/top-langs.svg
+            echo "Successfully updated profile-stats/top-langs.svg"
+          else
+            echo "Warning: Received invalid response for top languages card. Keeping existing version."
+            rm -f temp-langs.svg
+          fi
+
+      - name: Commit & Push updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-stats/*.svg
+          git diff --staged --quiet || git commit -m "📊 Update GitHub stats & top languages cards"
+          git push
