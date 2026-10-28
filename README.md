@@ -69,15 +69,8 @@ I'm **Aarav**, a **Computer Science & AI Student** and passionate **Web Develope
 
 ---
 
-### 📊 GitHub Statistics
-
 <div align="center">
-  <img width="49%" src="./profile-stats/github-stats.svg" alt="GitHub Stats" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=Aaravsingh1507&theme=github_dark&border_radius=8&hide_border=true&background=0d1117&ring=1f6feb&fire=1f6feb&currStreakLabel=1f6feb" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img width="38%" src="./profile-stats/top-langs.svg" alt="Top Languages" />
+  <img width="100%" src="./profile-stats/github-stats.svg" alt="GitHub Statistics" />
 </div>
 
 ---
