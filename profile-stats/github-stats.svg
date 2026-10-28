@@ -150,11 +150,11 @@
 
     <!-- Full-width Multi-Color Progress Bar -->
     <g clip-path="url(#lang-bar-clip)">
-      <rect x="48.0" y="385" width="478.4" height="11" fill="#3178c6" />
-      <rect x="526.4" y="385" width="230.6" height="11" fill="#f1e05a" />
-      <rect x="757.0" y="385" width="109.8" height="11" fill="#663399" />
-      <rect x="866.8" y="385" width="104.0" height="11" fill="#3572A5" />
-      <rect x="970.8" y="385" width="4.3" height="11" fill="#e34c26" />
+      <rect x="48.0" y="385" width="471.0" height="11" fill="#3178c6" />
+      <rect x="519.0" y="385" width="227.0" height="11" fill="#f1e05a" />
+      <rect x="745.9" y="385" width="116.9" height="11" fill="#3572A5" />
+      <rect x="862.8" y="385" width="108.0" height="11" fill="#663399" />
+      <rect x="970.9" y="385" width="4.3" height="11" fill="#e34c26" />
       <rect x="975.1" y="385" width="0.9" height="11" fill="#C1F12E" />
     </g>
 
@@ -165,32 +165,32 @@
     <g>
       <circle cx="136" cy="421" r="5" fill="#3178c6" />
       <text x="156" y="426" font-size="13" font-weight="500" fill="#c9d1d9">TypeScript</text>
-      <text x="420" y="426" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">51.56%</text>
+      <text x="420" y="426" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">50.75%</text>
     </g>
     <g>
       <circle cx="136" cy="447" r="5" fill="#f1e05a" />
       <text x="156" y="452" font-size="13" font-weight="500" fill="#c9d1d9">JavaScript</text>
-      <text x="420" y="452" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">24.85%</text>
+      <text x="420" y="452" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">24.46%</text>
     </g>
     <g>
-      <circle cx="136" cy="473" r="5" fill="#663399" />
-      <text x="156" y="478" font-size="13" font-weight="500" fill="#c9d1d9">CSS</text>
-      <text x="420" y="478" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">11.83%</text>
+      <circle cx="136" cy="473" r="5" fill="#3572A5" />
+      <text x="156" y="478" font-size="13" font-weight="500" fill="#c9d1d9">Python</text>
+      <text x="420" y="478" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">12.59%</text>
     </g>
     <g>
-      <circle cx="602" cy="421" r="5" fill="#3572A5" />
-      <text x="622" y="426" font-size="13" font-weight="500" fill="#c9d1d9">Python</text>
-      <text x="890" y="426" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">11.21%</text>
+      <circle cx="602" cy="421" r="5" fill="#663399" />
+      <text x="622" y="426" font-size="13" font-weight="500" fill="#c9d1d9">CSS</text>
+      <text x="890" y="426" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">11.64%</text>
     </g>
     <g>
       <circle cx="602" cy="447" r="5" fill="#e34c26" />
       <text x="622" y="452" font-size="13" font-weight="500" fill="#c9d1d9">HTML</text>
-      <text x="890" y="452" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">0.47%</text>
+      <text x="890" y="452" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">0.46%</text>
     </g>
     <g>
       <circle cx="602" cy="473" r="5" fill="#C1F12E" />
       <text x="622" y="478" font-size="13" font-weight="500" fill="#c9d1d9">Batchfile</text>
-      <text x="890" y="478" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">0.10%</text>
+      <text x="890" y="478" text-anchor="end" font-size="13" font-weight="600" fill="#f0f6fc">0.09%</text>
     </g>
   </g>
 </svg>
