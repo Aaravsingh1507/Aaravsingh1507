@@ -48,7 +48,7 @@
       <!-- History / Clock icon -->
       <path d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.99l2.03 1.172a.75.75 0 11-.75 1.3l-2.404-1.388A.75.75 0 017 8.172V4.75A.75.75 0 017.75 4z" fill="#1f6feb" />
       <text x="26" y="13" font-size="13" font-weight="500" fill="#c9d1d9">Total Commits (last year):</text>
-      <text x="340" y="13" text-anchor="end" font-size="14" font-weight="700" fill="#f0f6fc">82</text>
+      <text x="340" y="13" text-anchor="end" font-size="14" font-weight="700" fill="#f0f6fc">83</text>
     </g>
 
     <!-- Row 3: PRs -->
@@ -91,7 +91,7 @@
     </g>
 
     <!-- Big Number -->
-    <text x="520" y="258" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">89</text>
+    <text x="520" y="258" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">92</text>
     <!-- Label -->
     <text x="520" y="280" text-anchor="middle" font-size="13" font-weight="500" fill="#c9d1d9">Total Contributions</text>
     <!-- Range -->
@@ -113,12 +113,12 @@
     </g>
 
     <!-- Number in Ring -->
-    <text x="720" y="188" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">2</text>
+    <text x="720" y="188" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">3</text>
     
     <!-- Label -->
     <text x="720" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#388bfd">Current Streak</text>
     <!-- Range -->
-    <text x="720" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#3fb950">Oct 27 - Oct 28</text>
+    <text x="720" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#3fb950">Oct 27 - Oct 29</text>
   </g>
 
   <!-- ================= CARD 4: Longest Streak ================= -->
