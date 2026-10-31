@@ -113,12 +113,12 @@
     </g>
 
     <!-- Number in Ring -->
-    <text x="720" y="188" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">3</text>
+    <text x="720" y="188" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">0</text>
     
     <!-- Label -->
     <text x="720" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#388bfd">Current Streak</text>
     <!-- Range -->
-    <text x="720" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#3fb950">Oct 27 - Oct 29</text>
+    <text x="720" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#3fb950">Oct 31</text>
   </g>
 
   <!-- ================= CARD 4: Longest Streak ================= -->
