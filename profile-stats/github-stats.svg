@@ -118,7 +118,7 @@
     <!-- Label -->
     <text x="720" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#388bfd">Current Streak</text>
     <!-- Range -->
-    <text x="720" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#3fb950">Nov 3</text>
+    <text x="720" y="280" text-anchor="middle" font-size="12" font-weight="500" fill="#3fb950">Nov 4</text>
   </g>
 
   <!-- ================= CARD 4: Longest Streak ================= -->
