@@ -91,7 +91,7 @@
     </g>
 
     <!-- Big Number -->
-    <text x="520" y="258" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">123</text>
+    <text x="520" y="258" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">141</text>
     <!-- Label -->
     <text x="520" y="280" text-anchor="middle" font-size="13" font-weight="500" fill="#c9d1d9">Total Contributions</text>
     <!-- Range -->
